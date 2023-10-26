@@ -112,7 +112,7 @@
             bindings = <
 &kp ESC    &kp F1  &kp F2   &kp F3   &kp F4     &kp MINUS    	&kp EQUAL    	&kp N7     &kp N8      &kp N9       &trans		&trans
 &kp GRAVE  &kp F5  &kp F6   &kp F7   &kp F8     &kp LBKT    	&kp RBKT	&kp N4     &kp N5      &kp N6       &kp SEMI     	&kp DEL
-&bt BT_CLR     &kp F9  &kp F10  &kp F11  &kp F12    &kp BSLH    	&trans		&kp N1     &kp N2      &kp N3       &trans     		&kp INS
+&trans     &kp F9  &kp F10  &kp F11  &kp F12    &kp BSLH    	&trans		&kp N1     &kp N2      &kp N3       &trans     		&kp INS
 #ifdef TBLE_DUAL_2U
 &trans  &trans       &trans     &trans              &trans                 &kp N0            &trans &trans &trans &trans
 #elif defined(TBLE_MIT)
@@ -126,7 +126,7 @@
         sym_layer {
             label = "Sym";
             bindings = <
-&bt BT_CLR  &bt BT_NXT   &bt BT_PRV     &trans    &trans     &trans    &trans       &trans       &trans     &trans		&ext_power EP_TOG &trans
+&bt BT_CLR  &bt BT_NXT   &bt BT_PRV     &trans    &trans     &trans    &trans       &trans       &trans    &kp C_MUTE     	&kp C_VOL_DN    &kp C_VOL_UP
 &trans     &trans   &trans  &trans  &trans    &trans    &trans     &trans    &trans       &trans       &trans     &trans
 &trans     &trans   &trans  &trans  &trans    &trans    &trans     &trans    &trans       &trans       &trans 	 &trans
 #ifdef TBLE_DUAL_2U
