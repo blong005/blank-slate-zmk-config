@@ -126,7 +126,7 @@
         sym_layer {
             label = "Sym";
             bindings = <
-&bt BT_CLR  &bt BT_NXT   &bt BT_PRV     &trans    &trans     &trans    &trans       &trans       &trans    &kp C_MUTE     	&kp C_VOL_DN    &kp C_VOL_UP
+&bt BT_CLR  &bt BT_NXT   &bt BT_PRV     &trans    &trans     &trans    &trans       &trans       &trans    &trans	&ext_power EP_ON    &ext_power EP_OFF
 &trans     &trans   &trans  &trans  &trans    &trans    &trans     &trans    &trans       &trans       &trans     &trans
 &trans     &trans   &trans  &trans  &trans    &trans    &trans     &trans    &trans       &trans       &trans 	 &trans
 #ifdef TBLE_DUAL_2U
