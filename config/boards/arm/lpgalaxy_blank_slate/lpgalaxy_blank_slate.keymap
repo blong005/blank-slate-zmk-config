@@ -94,11 +94,11 @@
         nav_layer {
             label = "Nav";
             bindings = <
-&trans &trans     &trans     &trans      &trans          &trans       &trans     &trans       &kp UP      	&kp C_MUTE     	&kp C_VOL_DN    &kp C_VOL_UP
+&bt BT_CLR  &bt BT_NXT   &bt BT_PRV      &trans          &trans       &trans     &trans       &kp UP      	&kp C_MUTE     	&kp C_VOL_DN    &kp C_VOL_UP
 &kp LGUI   &trans     &trans     &trans      &trans          &trans       &trans     &kp LEFT     &kp DOWN    	&kp RIGHT	&trans		&trans
 &trans     &trans     &trans     &trans      &trans       &trans      &trans      &trans  	&trans  	&trans    	&trans 		&trans
 #ifdef TBLE_DUAL_2U
-&trans  &trans        &trans     &trans              &trans                    &trans       &trans         &trans &trans &trans
+&bt BT(0)  &bt BT(1)  &bt BT(2)   &bt BT(3)       &bt BT(4)                    &trans       &trans         &trans &trans &trans
 #elif defined(TBLE_MIT)
 &trans  &trans        &trans     &trans      &trans                &trans             &trans      &trans   &trans &trans &trans
 #else
