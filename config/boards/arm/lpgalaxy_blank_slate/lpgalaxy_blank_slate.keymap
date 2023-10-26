@@ -130,7 +130,7 @@
 &trans     &trans   &trans  &trans  &trans    &trans    &trans     &trans    &trans       &trans       &trans     &trans
 &trans     &trans   &trans  &trans  &trans    &trans    &trans     &trans    &trans       &trans       &trans 	 &trans
 #ifdef TBLE_DUAL_2U
-&bt BT(0)  &bt BT(1)  &bt BT(2)   &bt BT(3)       &bt BT(4)                    &trans       &trans     &bootloader &trans &trans
+&bt BT(0)  &bt BT(1)  &bt BT(2)   &bt BT(3)       &bt BT(4)                    &trans       &trans     &trans  &trans &bootloader
 #elif defined(TBLE_MIT)
 &trans &trans        &trans     &trans        &trans                &trans             &trans      &trans   &trans &trans &trans
 #else
