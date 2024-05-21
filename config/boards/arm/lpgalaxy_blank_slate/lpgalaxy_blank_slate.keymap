@@ -37,7 +37,7 @@
 #endif
     };
 
-    macros {
+ /*   macros {
       ZMK_MACRO(thumbs_up,
 		wait-ms = <1>;
 		tap-ms = <5>;
@@ -54,7 +54,7 @@
 		bindings = <&kp LSHFT>, <&caps_word>;
 	};
     };
-
+*/
 // Conditional layer only when we have less thumb keys
 #ifdef TBLE_DUAL_2U
     cond_layers {
@@ -94,11 +94,11 @@
         nav_layer {
             label = "Nav";
             bindings = <
-&bt BT_CLR  &ext_power EP_ON    &ext_power EP_OFF      &trans          &trans       &trans     &trans 	&trans	&kp UP 	&kp C_MUTE     	&kp C_VOL_DN    &kp C_VOL_UP
-&kp LGUI   &trans     &trans     &trans      &trans          &trans       &trans     &kp LEFT     &kp DOWN    	&kp RIGHT	&trans		&trans
-&trans     &trans     &trans     &trans      &trans       &trans      &trans      &trans  	&trans  	&trans    	&trans 		&trans
+&bt BT_CLR  	&ext_power EP_ON &ext_power EP_OFF      &trans	&trans	&trans		&trans 	&trans		&kp UP 		&kp C_MUTE     	&kp C_VOL_DN    &kp C_VOL_UP
+&kp LGUI   	&trans     	 &trans     		&trans	&trans	&trans		&trans	&kp LEFT     	&kp DOWN    	&kp RIGHT	&trans		&trans
+&trans     	&trans     	 &trans     		&trans	&trans	&trans		&trans	&trans  	&trans  	&trans    	&trans 		&trans
 #ifdef TBLE_DUAL_2U
-&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                    &trans       &trans         &trans &trans &trans
+&bt BT_SEL 0 	&bt BT_SEL 1 	&bt BT_SEL 2 	&bt BT_SEL 3 	&bt BT_SEL 4	&trans	&trans	&trans	&trans	&trans
 #elif defined(TBLE_MIT)
 &trans  &trans        &trans     &trans      &trans                &trans             &trans      &trans   &trans &trans &trans
 #else
